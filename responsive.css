@@ -1,0 +1,130 @@
+@media screen and (max-width:600px) {
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+
+    }
+   
+
+
+    ul{
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin-top: 30px;
+        
+    }
+    
+    ul li a{
+        color: var(--text-color);
+        margin: 0;
+        
+        transition: .3s ;
+    }
+    
+    .home{
+        text-align: center;
+
+        flex-direction: column-reverse;
+ 
+    }
+    .Mustafiz{
+        text-align: start;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .home-img{
+        overflow: hidden;
+    
+    
+    }
+    
+    section{
+        margin: 80px 30px;
+        text-align: center;
+    }
+    .home-contant{
+        width: 90vw;
+    }
+
+    
+    .home-contant h1{
+        font-size: 26px;
+
+        /* font-size: 55px; */
+        font-weight: 600;
+        line-height: 1.5;
+        
+    
+    }
+    .home-contant h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin:20px 0;
+    }
+    .icon a{
+
+        
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: 2px solid var(--main-color);
+        border-radius: 50%;
+        /* font-size: rem; */
+        color: var(--main-color);
+        /* margin: 3rem 1.5rem 3rem 0; */
+        /* margin: 30px 15px 30px 0; */
+    
+        transition: 0.3s;
+        
+    }
+    .home-img{
+        width: 80vw;
+        height: 80vw;
+        
+    
+    
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-contant h2{
+      
+        text-align: center;
+       
+    }
+
+    
+
+    .about-img{
+        /* width: 300px; */
+        width: 70vw;
+        overflow: hidden;
+        height: 70vw;
+
+    }
+
+    .about-contant{
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+    
+    .service-container{
+        flex-direction: column;
+    }
+
+    .project{
+        flex-direction: column;
+    }
+}
